@@ -76,7 +76,7 @@ img {
     padding-left: 60px;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 780px) {
     .intro-box {
         flex-direction: column;
     }
