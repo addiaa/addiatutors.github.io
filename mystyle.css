@@ -21,6 +21,7 @@ h2 {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 50px;
+    line-height: 1;
 }
 
 .main-box {
@@ -87,18 +88,20 @@ img {
     /* flex-direction: row; */
     align-items: flex-start;
     justify-content: space-between;
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 
 @media screen and (min-width: 0px) {
     .about-box {
         flex-direction: column;
+        padding-top: 20px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .about-box {
         flex-direction: row;
+        padding-top: 80px;
     }
 }
 
@@ -106,7 +109,19 @@ img {
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
-    padding-top: 60px;
+    /* padding-top: 60px; */
+}
+
+@media screen and (min-width: 0px) {
+    .contact-box {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contact-box {
+        padding-top: 40px;
+    }
 }
 
 @media screen and (min-width: 0px) {
