@@ -49,7 +49,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 990px) {
     .intro-box {
         flex-direction: row;
     }
@@ -76,7 +76,7 @@ img {
     }
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 990px) {
     img {
         width: 46%;
         height: 46%;
@@ -103,7 +103,7 @@ img {
     }
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 990px) {
     .about-box {
         flex-direction: row;
     }
@@ -148,7 +148,7 @@ img {
     }
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 990px) {
     .left-box {
         max-width: 50%;
         /* padding-right: 60px; */
