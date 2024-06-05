@@ -3,6 +3,18 @@
     src: url(Inter-VariableFont_slnt\,wght.ttf);
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #fff
+}
+
+a:visited {
+    color: #fff;
+}
+
 p {
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -22,6 +34,16 @@ h2 {
     font-weight: 500;
     font-size: 50px;
     line-height: 1;
+}
+
+.fr-title {
+    font-size: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .fr-title {
+        font-size: 50px;
+    }
 }
 
 .logo-box {
@@ -148,15 +170,23 @@ h2 {
 
 .contact-box {
     display: flex;
-    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
 
+    flex-direction: column;
     padding-top: 0px;
 }
 
 @media screen and (min-width: 768px) {
     .contact-box {
         padding-top: 40px;
+        flex-direction: row;
     }
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .left-box {
@@ -186,5 +216,19 @@ h2 {
     .right-box {
         max-width: 50%;
         padding-left: 60px;
+    }
+}
+
+iframe {
+    width: 100%;
+    height: 1170px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    iframe {
+        width: 52%;
     }
 }
