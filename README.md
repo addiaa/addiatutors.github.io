@@ -7,7 +7,7 @@ Currently, the website includes:
 - Contact Form: An easy way for potential clients to reach out and for existing clients to make referrals.
 
 ## Built With
-No special frameworks or libraries are used, keeping the setup simple and straightforward.
+No special frameworks or libraries are used, keeping the website minimal and straightforward.
 - HTML
 - CSS
 
